@@ -8,7 +8,7 @@
 
     <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.7.0/remixicon.css" crossorigin="">
-    <link rel="stylesheet" href="style.css">    
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqueries.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,11 +27,12 @@
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#about">About Me</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
                     <li><a href="#contact">Contact Me</a></li>
                 </ul>
             </div>
         </nav>
-        
+
         <nav id="hamburger-nav">
             <div class="logo">Tomiwa's Portfolio</div>
             <div class="hamburger-menu">
@@ -45,6 +46,7 @@
                     <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
                     <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
                     <li><a href="#about" onclick="toggleMenu()">About Me</a></li>
+                    <li><a href="#certifications" onclick="toggleMenu()">Certifications</a></li>
                     <li><a href="#contact" onclick="toggleMenu()">Contact Me</a></li>
                 </div>
             </div>
@@ -57,27 +59,29 @@
                     <img src="assets/images/profile.webp" alt="Profile picture">
                 </div>
                 <div class="section__text">
-    
+
                     <p>ServiceNow Developer</p>
                     <h1> Hi, I'm <span class="name">Tomiwa</span></h1>
-    
+
                     <div class="btn-container">
                         <button class="btn btn-color-2" onclick="downloadResume()">Download CV
                         </button>
-            
+
                         <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Me
                         </button>
                     </div>
-    
+
                     <div class="social-container">
                         <img src="assets\images\linkedin.png" alt="My LinkedIn profile" class="icon"
                             onclick="location.href='https://www.linkedin.com/in/tomiwa-a-42ba7a120/'" />
-                        <img src="assets\images\github.png" alt="My Github profile" class="icon" 
-                        onclick="location.href='https://github.com/tomiwa135'" />
+                        <img src="assets\images\github.png" alt="My Github profile" class="icon"
+                            onclick="location.href='https://github.com/tomiwa135'" />
                     </div>
-                    
+
                 </div>
             </div>
+            <img src="assets\images\downarrow.png" alt="Arrow-icon" class="icon arrow"
+                onclick="location.href='./#skills'">
         </section>
         <section id="skills">
             <h1 class="title">My Skills</h1>
@@ -131,51 +135,119 @@
                     </div>
                 </div>
             </div>
+            <img src="assets\images\downarrow.png" alt="Arrow-icon" class="icon arrow"
+                onclick="location.href='./#projects'">
+        </section>
+        <section id="projects">
+            <p class="subtitle">Browse My Recent</p>
+            <h1 class="title">Projects</h1>
+            <div class="projects-container">
+                <div class="project-details-container">
+                    <div class="project-details">
+                        <div class="projects-box">
+                            <img src="assets\images\woodenedgestudios.png" alt="Wooden Edge Studios" class="project-img">
+                            <h1 class="project-title">Wooden Edge Studios</h1>
+                        </div>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn"
+                                onclick="location.href='https://woodenedgestudios.com'">
+                                Visit My Website
+                            </button>
+                        </div>
+
+                    </div>
+                    <div class="project-details">
+                        <div class="projects-box">
+                            <img src="assets/images/qrcode.png" alt="QR Code" class="project-img">
+                            <h1 class="project-title">QR Code</h1>
+                        </div>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn"
+                                onclick="location.href='https://github.com/tomiwa135/QRCodeGenerator'">
+                                Github
+                            </button>
+                            <button class="btn btn-color-2 project-btn"
+                                onclick="location.href='https://github.com/tomiwa135/QRCodeGenerator'">
+                                Live Demo
+                            </button>
+                        </div>
+
+                    </div>
+                    <div class="project-details">
+                        <div class="projects-box">
+                            <img src="assets/images/formvalidation.png" alt="Form Validation" class="project-img">
+                            <h1 class="project-title">Form Validation</h1>
+                        </div>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn"
+                                onclick="location.href='https://github.com/tomiwa135/QRCodeGenerator'">
+                                Github
+                            </button>
+                            <button class="btn btn-color-2 project-btn"
+                                onclick="location.href='https://github.com/tomiwa135/QRCodeGenerator'">
+                                Live Demo
+                            </button>
+                        </div>
+
+                    </div>
+                    <div class="project-details">
+                        <div class="projects-box">
+                            <img src="assets/images/weatherapp.png" alt="Weather App" class="project-img">
+                            <h1 class="project-title">Weather App</h1>
+                        </div>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn"
+                                onclick="location.href='https://github.com/tomiwa135/QRCodeGenerator'">
+                                Github
+                            </button>
+                            <button class="btn btn-color-2 project-btn"
+                                onclick="location.href='https://github.com/tomiwa135/QRCodeGenerator'">
+                                Live Demo
+                            </button>
+                        </div>
+
+                    </div>
+                    
+                </div>
+            </div>
+            <img src="assets\images\downarrow.png" alt="Arrow-icon" class="icon arrow"
+                onclick="location.href='./#about'">
         </section>
         <section id="about">
             <p class="subtitle">Get to know more</p>
             <h1 class="title">About Me</h1>
-            <div class="section-container">
-                <div class="about-col-1">
-                    <img src="assets/images/profile.webp" alt="profile-picture">
+            <div class="about-containers">
+                <div class="section-container-pic-1">
+                    <img src="assets/images/profile.webp" alt="profile-picture" class="about-pic">
                 </div>
-    
-                <div class="about-col-2">
-                    <div class="about-containers">
-                        <div class="details-container">
-                            <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-                            <h3>Experience</h3>
-                            <p>2+ years <br>ServiceNow Developer</p>
+                <div class="section-container-details-2">
+                    <div class="section-container-brief">
+                        <div class="experience-education-container">
+                            <img src="assets\images\education.png" alt="Education" class="icon">
+                            <h2>Education</h2>
+                            <p>M.Sc. in Engineering</p>
+                            <p>B. Sc. in Structural Engineering</p>
                         </div>
-                        <div class="details-container">
-                            <i class="fa fa-briefcase" aria-hidden="true"></i>
-                            <h3>Education</h3>
-                            <p>M.Sc. in Engineering <br> B.Sc. in Structural Engineering</p>
+                        <div class="experience-education-container">
+                            <img src="assets\images\experience.png" alt="Experience" class="icon">
+                            <h2>Experience</h2>
+                            <p>3+ years <br> ServiceNow Development</p>
                         </div>
                     </div>
-                    <div class="text-container">
-                        <p>As a life-long learner and dedicated professional, I am passionate about coming up with
-                            innovative solutions that aligns with business objectives. My career in IT has made me an
-                            effective problem solver with the ability
-                            to translate and accurately prioritize business needs into solutions. As the Founder and
-                            ServiceNow Developer/Admin of Wooden Edge Studios, I am responsible for implementing and
-                            managing custom applications and modules
-                            using ITSM and ITIL best practices. I began my IT career at HBM Engineering LLC after earning a
-                            master's in Engineering at the University of California, Berkeley. Prior to combining all my
-                            academic and professional skills
-                            to launch Wooden Edge Studios, I was in a hybrid Software Engineering role at JP Morgan Chase —
-                            Corporate & Investment Banking. As a vital part of a dynamic team, our mission was to streamline
-                            operations by automating manual
-                            processes and enhancing platform solutions for the Application Development Team.
+                    <div class="section-containers-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut inventore,
+                            soluta libero magni quod mollitia, itaque expedita maiores cum, incidunt
+                            similique rerum eligendi aut facilis? Laudantium eligendi sint culpa
+                            doloribus.
                         </p>
                     </div>
-    
                 </div>
             </div>
-            <i class="fa fa-angle-double-down" aria-hidden="true" onclick="location.href='./#skills'"></i>
+            <img src="assets\images\downarrow.png" alt="Arrow-icon" class="icon arrow"
+                onclick="location.href='./#contact'">
         </section>
     </main>
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
