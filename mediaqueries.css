@@ -1,0 +1,17 @@
+@media screen and (max-width: 1200px) {
+    #desktop-nav {
+        display: none;
+    }
+    #hamburger-nav{
+        display: flex;
+    }
+    .skills-container{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+        grid-gap: 10px;
+    }
+    .skill-box{
+        flex: 1 0 100px;
+        margin: 5px;
+    }
+}
