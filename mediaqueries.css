@@ -1,17 +1,141 @@
+@media screen and (max-width: 1400px) {
+    #profile {
+        margin-bottom: 6rem;
+        height: 81vh;
+    }
+
+    .section-conainer,
+    .skills-container,
+    .about-containers,
+    .projects-containers,
+    .contact-container {
+        flex-wrap: wrap;
+    }
+}
+
 @media screen and (max-width: 1200px) {
     #desktop-nav {
         display: none;
     }
-    #hamburger-nav{
+
+    #hamburger-nav {
         display: flex;
     }
-    .skills-container{
+
+    .skills-container {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
         grid-gap: 10px;
     }
-    .skill-box{
+
+    .skill-box {
         flex: 1 0 100px;
         margin: 5px;
     }
+
+    #profile,
+    .section-conainer,
+    .about-containers {
+        display: block;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    section,
+    .section-conainer {
+        height: fit-content;
+    }
+
+    section {
+        margin: 0 5%;
+    }
+
+    .section__pic-container {
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+
+    .skills-container,
+    .projects-containers,
+    .section-container-brief,
+    .contact-container {
+        margin-top: 0;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    footer {
+        height: 30vh;
+    }
+
+    footer nav {
+        height: fit-content;
+        margin-bottom: 16px;
+    }
+
+
+    .contact-container,
+    .section-container-brief,
+    .btn-container {
+        flex-wrap: wrap;
+    }
+
+    .section-container-details-2 {
+        margin-top: 100px;
+    }
+
+    .contact-left {
+        margin: 0;
+    }
+
+    .contact-container,
+    .nav-links li a {
+        font-size: var(--smaller-font-size);
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+
+    .experience-education-container p {
+        font-size: var(--normal-font-size);
+    }
+
+    .skill-title h4 {
+        font-size: var(--small-font-size);
+    }
+
+    .logo {
+        font-size: var(--h2-font-size);
+    }
+
+    .section-container-pic-1 {
+        width: auto;
+    }
+
+    .title {
+        font-size: var(--h2-font-size);
+    }
+
+    .section-containers-text {
+        text-align: justify;
+    }
+
+    .contact-right-form input,
+    .contact-right-form textarea {
+        width: 100%;
+    }
+
+    .section-container-pic-1 {
+        width: 200px;
+        height: 200px;
+        margin: auto 0;
+    }
+
 }

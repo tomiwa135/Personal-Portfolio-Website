@@ -23,7 +23,7 @@
             <div class="logo">Tomiwa's Portfolio</div>
             <div>
                 <ul class="nav-links">
-                    <li><a href="#home">Home</a></li>
+                    <li><a href="#profile">Home</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#about">About Me</a></li>
@@ -42,7 +42,7 @@
                     <span></span>
                 </div>
                 <div class="menu-links">
-                    <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+                    <li><a href="#profile" onclick="toggleMenu()">Home</a></li>
                     <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
                     <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
                     <li><a href="#about" onclick="toggleMenu()">About Me</a></li>
@@ -54,31 +54,29 @@
     </header>
     <main>
         <section id="profile">
-            <div class="section-container">
-                <div class="section__pic-container">
-                    <img src="assets/images/" alt="Profile picture">
+            <div class="section__pic-container">
+                <img src="assets/images/profile.webp" alt="Profile picture">
+            </div>
+            <div class="section__text">
+
+                <p>ServiceNow Developer</p>
+                <h1> Hi, I'm <span class="name">Tomiwa</span></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit voluptatem iure reprehenderit</p>
+                <div class="btn-container">
+                    <button class="btn btn-color-2" onclick="downloadResume()">Download CV
+                    </button>
+
+                    <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Me
+                    </button>
                 </div>
-                <div class="section__text">
 
-                    <p>ServiceNow Developer</p>
-                    <h1> Hi, I'm <span class="name">Tomiwa</span></h1>
-
-                    <div class="btn-container">
-                        <button class="btn btn-color-2" onclick="downloadResume()">Download CV
-                        </button>
-
-                        <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Me
-                        </button>
-                    </div>
-
-                    <div class="social-container">
-                        <img src="assets\images\linkedin.png" alt="My LinkedIn profile" class="icon"
-                            onclick="location.href='https://www.linkedin.com/in/tomiwa-a-42ba7a120/'" />
-                        <img src="assets\images\github.png" alt="My Github profile" class="icon"
-                            onclick="location.href='https://github.com/tomiwa135'" />
-                    </div>
-
+                <div class="social-container">
+                    <img src="assets\images\linkedin.png" alt="My LinkedIn profile" class="icon"
+                        onclick="location.href='https://www.linkedin.com/in/tomiwa-a-42ba7a120/'" />
+                    <img src="assets\images\github.png" alt="My Github profile" class="icon"
+                        onclick="location.href='https://github.com/tomiwa135'" />
                 </div>
+
             </div>
             <img src="assets\images\downarrow.png" alt="Arrow-icon" class="icon arrow"
                 onclick="location.href='./#skills'">
@@ -360,13 +358,15 @@
                     </form>
                 </div>
             </div>
+            <img src="assets\images\downarrow.png" alt="Arrow-icon" class="icon arrow"
+                onclick="location.href='./#foot'">
         </section>
     </main>
-    <footer>
+    <footer id="foot">
         <nav>
             <div class="nav-links-container">
                 <ul class="nav-links">
-                    <li><a href="#home">Home</a></li>
+                    <li><a href="#profile">Home</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#about">About Me</a></li>
