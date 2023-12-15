@@ -23,7 +23,7 @@
     }
 
     #certifications{
-        margin-top: 400px;
+        margin-top: 0;
     }
 
     .skills-container {
@@ -65,13 +65,23 @@
     .skills-container,
     .projects-containers,
     .section-container-brief,
+    .about-containers,
     .contact-container {
         margin-top: 0;
     }
 
-    .section-container-pic-1,
-    .section-container-details-2 {
+    .about-containers {
         flex-basis: 100%;
+    }
+
+    .section-container-pic-1{
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+
+    .section-container-details-2 {
+        margin-top: 120px;
     }
 
 }
