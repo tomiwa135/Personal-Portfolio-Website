@@ -56,7 +56,7 @@
         <section id="profile">
             <div class="section-container">
                 <div class="section__pic-container">
-                    <img src="assets/images/profile.webp" alt="Profile picture">
+                    <img src="assets/images/" alt="Profile picture">
                 </div>
                 <div class="section__text">
 
@@ -84,7 +84,7 @@
                 onclick="location.href='./#skills'">
         </section>
         <section id="skills">
-            <h1 class="title">My Skills</h1>
+            <h1 class="title">My Skills <i class="fa fa-user-secret" aria-hidden="true"></i></h1>
             <div class="skills-container">
                 <div class="skill-box">
                     <div class="skill-title">
@@ -134,13 +134,45 @@
                         <h4>SQL</h4>
                     </div>
                 </div>
+                <div class="skill-box">
+                    <div class="skill-title">
+                        <div class="img">
+                            <img src="assets\images\awsskill.png" alt="AWS" class="skill-icon">
+                        </div>
+                        <h4>AWS</h4>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-title">
+                        <div class="img">
+                            <img src="assets\images\angular.png" alt="AngularJS" class="skill-icon">
+                        </div>
+                        <h4>Angular JS</h4>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-title">
+                        <div class="img">
+                            <img src="assets\images\xml.png" alt="XML" class="skill-icon">
+                        </div>
+                        <h4>XML</h4>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-title">
+                        <div class="img">
+                            <img src="assets\images\json.png" alt="JSON" class="skill-icon">
+                        </div>
+                        <h4>JSON</h4>
+                    </div>
+                </div>
             </div>
             <img src="assets\images\downarrow.png" alt="Arrow-icon" class="icon arrow"
                 onclick="location.href='./#projects'">
         </section>
         <section id="projects">
             <p class="subtitle">Browse My Recent</p>
-            <h1 class="title">Projects</h1>
+            <h1 class="title">Projects <i class="ri-code-box-line"></i></h1>
             <div class="projects-container">
                 <div class="project-details-container">
                     <div class="project-detail">
@@ -151,8 +183,7 @@
                         </div>
                         <div class="btn-container">
                             <button class="btn btn-color-2 project-btn"
-                                onclick="location.href='https://woodenedgestudios.com'">
-                                Visit My Website
+                                onclick="location.href='https://woodenedgestudios.com'">My Website
                             </button>
                         </div>
 
@@ -160,7 +191,7 @@
                     <div class="project-detail">
                         <div class="projects-box">
                             <img src="assets/images/qrcode.png" alt="QR Code" class="project-img">
-                            <h1 class="project-title">QR Code</h1>
+                            <h1 class="project-title">QR Code Generator</h1>
                         </div>
                         <div class="btn-container">
                             <button class="btn btn-color-2 project-btn"
@@ -216,7 +247,7 @@
         </section>
         <section id="about">
             <p class="subtitle">Get to know more</p>
-            <h1 class="title">About Me</h1>
+            <h1 class="title">About Me <i class="fa fa-id-card" aria-hidden="true"></i></h1>
             <div class="about-containers">
                 <div class="section-container-pic-1">
                     <img src="assets/images/profile.webp" alt="profile-picture" class="about-pic">
@@ -245,18 +276,17 @@
                 </div>
             </div>
             <img src="assets\images\downarrow.png" alt="Arrow-icon" class="icon arrow"
-                onclick="location.href='./#contact'">
+                onclick="location.href='./#certifications'">
         </section>
         <section id="certifications">
-            <p class="subtitle">Check Out My</p>
-            <h1 class="title">My Certifications</h1>
+            <h1 class="title">My Certifications <i class="ri-award-fill"></i></h1>
             <div class="skills-container">
                 <div class="skill-box">
                     <div class="skill-title">
                         <div class="img">
                             <img src="assets\images\itil4.png" alt="ITIL 4" class="skill-icon">
                         </div>
-                        <h5 class="cert-title">ITIL 4</h5>
+                        <h5 class="cert-title">ITIL v4</h5>
                     </div>
                 </div>
                 <div class="skill-box">
@@ -297,14 +327,58 @@
                         <div class="img">
                             <img src="assets\images\aws.png" alt="AWS" class="skill-icon">
                         </div>
-                        <h5 class="cert-title">AWS</h5>
+                        <h5 class="cert-title">AWS Solutions Architect: <br> Associate</h5>
+                    </div>
+                </div>
+                <img src="assets\images\downarrow.png" alt="Arrow-icon" class="icon arrow"
+                    onclick="location.href='./#contact'">
+
+            </div>
+            <img src="assets\images\downarrow.png" alt="Arrow-icon" class="icon arrow"
+                onclick="location.href='./#contact'">
+        </section>
+        <section id="contact">
+            <h1 class="title">Contact Me <i class="ri-megaphone-fill"></i></h1>
+            <div class="contact-container">
+                <div class="contact-left">
+
+                    <p><i class="ri-mail-send-line"></i>tomiwa.akinrotimi@gmail.com</p>
+                    <p><i class="fa fa-mobile" aria-hidden="true"></i>+1(773) 808-3299</p>
+                    <div class="contact-social-container">
+                        <a href=""><i class="ri-linkedin-box-fill"></i></a>
+                        <a href=""><i class="ri-facebook-circle-fill"></i></a>
                     </div>
                 </div>
 
-
+                <div class="contact-right">
+                    <form class="contact-right-form">
+                        <input type="text" name="name" placeholder="John Smith" required>
+                        <input type="text" name="email" placeholder="johnsmith@gmail.com" required>
+                        <textarea rows="6" cols="50" name="message" form="usrform" placeholder="Send me a Message"
+                            required></textarea><br>
+                        <button type="submit" class="btn btn-color-2">Submit</button>
+                    </form>
+                </div>
             </div>
         </section>
     </main>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="copyright">
+            <p> Copyright © 2023 Tomiwa. All Rights Reserved</p>
+        </div>
+    </footer>
     <script src="script.js"></script>
 </body>
 
