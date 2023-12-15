@@ -145,17 +145,24 @@ a:hover {
     padding: 10px;
     text-align: center;
     font-size: 1.5rem;
-    color: var(--color-text);
+    color: var(--color-black);
     text-decoration: none;
     transition: all 0.3 ease-in-out;
 }
 
 .menu-links li {
     list-style: none;
+    display: block;
 }
 
 .menu-links.open {
-    max-height: 300px;
+    max-height: 400px;
+    color: var(--color-black);
+    position: absolute;
+    padding-top: 32px;
+    background: var(--color-white);
+    border-radius: 20px;
+    z-index: 1;
 }
 
 .hamburger-icon.open span:first-child {
