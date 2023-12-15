@@ -316,19 +316,21 @@ span.name {
 }
 
 .section-container-pic-1 {
-    flex-basis: 35%;
+    flex-basis: 30%;
 }
 
 .section-container-details-2 {
-    flex-basis: 60%;
+
+    flex-basis: 70%;
 }
 
 .about-pic {
-    width: 100%;
+    margin-top: 32px;
+    width: 90%;
     border-radius: 32px;
 }
 
-.section-containers-text{
+.section-containers-text {
     font-size: var(--small-font-size);
     font-weight: var(--font-light);
 }
@@ -354,12 +356,12 @@ span.name {
     text-align: center;
     background: var(--color-grey-2);
 }
+
 /*-----------SKILLS--------------*/
 
 #skills {
     position: relative;
     padding: 80px 0;
-    max-height: fit-content;
 }
 
 .skills-container {
@@ -373,7 +375,6 @@ span.name {
 
 .skill-box {
     padding: 8px;
-    color: inherit;
     cursor: pointer;
 }
 
@@ -432,7 +433,7 @@ span.name {
 }
 
 .skill-icon {
-    width: 50px;
+    width: 90%;
 }
 
 .skill-title h4 {
@@ -447,19 +448,18 @@ span.name {
 }
 
 .projects-container {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
+    padding: 50px 0;
 }
 
 .project-details-container {
-    gap: 2rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 30px;
 }
 
-.project-details {
+.project-detail {
     padding: 16px;
     flex: 1;
     border-radius: 32px;
@@ -467,6 +467,8 @@ span.name {
     border-color: var(--color-secondary);
     text-align: center;
     justify-content: center;
+    position: relative;
+    overflow: hidden;
 }
 
 .project-img {
@@ -476,6 +478,7 @@ span.name {
 .project-title {
     margin: 16px;
     display: flex;
+    flex-wrap: wrap;
     color: var(--color-grey-0);
     align-items: center;
     justify-content: center;
@@ -486,4 +489,13 @@ span.name {
     color: var(--color-black);
     border-color: var(--color-white);
     flex-direction: row;
+}
+
+/*-----------CERTIFICATIONS--------------*/
+
+.cert-title {
+    font-weight: var(--font-regular);
+    margin-top: 32px;
+    text-align: center;
+    justify-content: center;
 }
