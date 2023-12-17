@@ -1,7 +1,7 @@
 @media screen and (max-width: 1400px) {
     #profile {
         margin-bottom: 6rem;
-        height: 81vh;
+        height: 80vh;
     }
 
     .section-conainer,
@@ -29,7 +29,7 @@
     .skills-container {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-        grid-gap: 10px;
+        grid-gap: 15px;
     }
 
     .skill-box {
@@ -174,5 +174,13 @@
 
     .contact-left, .contact-right {
         flex-basis: 100%;
+    }
+
+    .section__text p {
+        font-weight: var(--font-regular);
+        font-size: var(--smaller-font-size);
+        text-align: center;
+        margin-bottom: 5px;
+        justify-content: center;
     }
 }

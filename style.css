@@ -89,10 +89,10 @@ a {
 
 a:hover {
     background-color: var(--color-grey-0);
-    border-radius: 5px;
-    border: 5px none #dedede;
+    border-radius: 3px;
+    border: 3px none #dedede;
     transition: 0.3s;
-    text-decoration-style: dashed;
+    color: var(--color-black);
 }
 
 .logo {
@@ -229,23 +229,40 @@ section {
     font-weight: var(--font-medium);
     text-align: center;
     margin-bottom: 5px;
+    font-size: var(--normal-font-size);
 }
 
 .section__text h1 {
     font-weight: var(--font-bold);
     text-align: center;
-
+    margin-top: 30px;
 }
 
 span.name {
     color: var(--color-secondary);
 }
 
+span.itil {
+    color: rgb(187, 135, 235);
+}
+
 .social-container {
     display: flex;
     justify-content: center;
-    margin-top: 15px;
+    margin-top: 25px;
     gap: 16px;
+}
+
+.social-container a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    transition: transform 0.5s;
+}
+
+.social-container a:hover {
+    transform: translate(-5px);
+    background: inherit;
 }
 
 /* ICONS */
@@ -261,6 +278,7 @@ span.name {
     display: flex;
     justify-content: center;
     gap: 16px;
+    margin-top: 20px;
 }
 
 .btn {
@@ -299,6 +317,8 @@ span.name {
     text-align: center;
     font-size: var(--h1-font-size);
     font-weight: var(--font-medium);
+    border-bottom: 3px solid #333;
+    padding-bottom: 30px;
 }
 
 .subtitle {
@@ -371,10 +391,10 @@ span.name {
 .skills-container {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
     margin-top: auto;
     padding: 32px;
     flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .skill-box {
@@ -466,7 +486,7 @@ span.name {
 .project-detail {
     padding: 16px;
     flex: 1;
-    border-radius: 32px;
+    border-radius: 16px;
     border: var(--color-grey-2) 0.1rem solid;
     border-color: var(--color-secondary);
     text-align: center;
@@ -486,7 +506,8 @@ span.name {
     color: var(--color-grey-0);
     align-items: center;
     justify-content: center;
-    font-size: var(--small-font-size);
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-regular);
 }
 
 .project-btn {
@@ -570,8 +591,8 @@ form textarea {
     outline: none;
     padding: 15px;
     margin: 15px 0;
-    color: var(--color-grey-0);
-    background: var(--color-grey-2);
+    color: var(--color-black);
+    background: var(--color-grey-0);
     font-size: var(--normal-font-size);
     border-radius: 20px;
 }
@@ -581,6 +602,11 @@ form .btn {
     font-weight: var(--font-regular);
     margin-top: 20px;
     cursor: pointer;
+}
+
+.ri-linkedin-box-fill,
+.ri-github-fill {
+    color: var(--color-secondary);
 }
 
 /*-----------FOOTER--------------*/
