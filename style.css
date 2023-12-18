@@ -282,10 +282,12 @@ span.itil {
 }
 
 .btn {
-    font-weight: 600;
+    font-weight: 550;
     transition: all 300ms ease;
-    padding: 16px;
-    width: 120px;
+    padding: 12px;
+    width: 150px;
+    min-width: fit-content;
+    font-size: var(--small-font-size);
     border-radius: 32px;
 }
 

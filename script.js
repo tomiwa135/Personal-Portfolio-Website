@@ -8,3 +8,13 @@ function toggleMenu() {
 function downloadResume() {
     window.open('assets/tomiwa-Akinrotimi-Resume.pdf');
 }
+
+function promptUser() {
+    var operations = prompt("Please enter password:");
+
+    if (operations == 1111) {
+        downloadResume();
+    } else {
+        alert("Wrong Password!");
+    }
+}
