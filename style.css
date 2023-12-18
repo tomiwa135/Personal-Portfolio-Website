@@ -611,6 +611,13 @@ form .btn {
     color: var(--color-secondary);
 }
 
+#msg{
+    color: var(--color-secondary);
+    margin-top: 10px;
+    display: block;
+    font-size: var(--small-font-size);
+}
+
 /*-----------FOOTER--------------*/
 
 footer {

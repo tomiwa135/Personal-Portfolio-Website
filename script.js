@@ -20,6 +20,7 @@ function promptUser() {
 }
 
 const form = document.querySelector('.contact-right-form');
+const msg = document.getElementById("msg")
 
 form.addEventListener('submit', event => {
     event.preventDefault();
@@ -37,10 +38,13 @@ form.addEventListener('submit', event => {
 
     client.onreadystatechange = function() { 
         if(client.status = 201 && client.readyState == 4) {
-            console.log("Form submitted successfully");
+            msg.innerHTML = "Message sent successfully!"
+            setTimeout(()=>{
+                msg.innerHTML="";
+            }, 3000)
+            form.reset()
         }
     }; 
     client.send(JSON.stringify(data));
 
 });
-
