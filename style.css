@@ -148,6 +148,8 @@ a:hover {
     color: var(--color-black);
     text-decoration: none;
     transition: all 0.3 ease-in-out;
+    border-bottom: 1px dashed var(--color-secondary);
+    border-bottom-width: 50%;
 }
 
 .menu-links li {
@@ -272,6 +274,10 @@ span.itil {
     height: 36px;
 }
 
+#woodenedge {
+    border-bottom: 2px solid var(--color-secondary);
+}
+
 /* BUTTONS */
 
 .btn-container {
@@ -359,6 +365,10 @@ span.itil {
 .section-containers-text {
     font-size: var(--small-font-size);
     font-weight: var(--font-light);
+}
+
+.line-gap {
+    margin-bottom: 20px;
 }
 
 .section-container-brief {
@@ -611,7 +621,7 @@ form .btn {
     color: var(--color-secondary);
 }
 
-#msg{
+#msg {
     color: var(--color-secondary);
     margin-top: 10px;
     display: block;
