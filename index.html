@@ -43,12 +43,12 @@
                 </div>
                 <div class="menu-links">
                     <ul>
-                        <li><a href="#profile" onclick="toggleMenu()">Home</a></li>
-                        <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
-                        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-                        <li><a href="#about" onclick="toggleMenu()">About Me</a></li>
-                        <li><a href="#certifications" onclick="toggleMenu()">Certifications</a></li>
-                        <li><a href="#contact" onclick="toggleMenu()">Contact Me</a></li>
+                        <li><a href="#profile" onclick="toggleMenu()">home</a></li>
+                        <li><a href="#skills" onclick="toggleMenu()">skills</a></li>
+                        <li><a href="#projects" onclick="toggleMenu()">projects</a></li>
+                        <li><a href="#about" onclick="toggleMenu()">about me</a></li>
+                        <li><a href="#certifications" onclick="toggleMenu()">certifications</a></li>
+                        <li><a href="#contact" onclick="toggleMenu()">contact me</a></li>
                     </ul>
                 </div>
             </div>
@@ -63,12 +63,17 @@
 
                 <p>ServiceNow Developer</p>
                 <h1> Hi, I'm <span class="name">Tomiwa</span></h1>
-                <p>Structural Engineer turned ServiceNow Enthusiast. <br> I am equipped with the 
+                <p>Structural Engineer turned ServiceNow Enthusiast. <br> I am equipped with the
                     <span class="name">CSA</span> and <span class="name">CAD</span> Mainline Certifications; <br>
-                    <span class="name">Flow Designer</span> and <span class="name">Integration Hub</span> Micro-Certifications. 
-                    <br>I am also equipped with the <span class="itil">ITIL v4</span> Certification. <br>Right Now, I am focused on building custom 
-                    ServiceNow <br>applications that support the business functionalities of my <br>ecommerce woodworking shop –
-                    <a href="https://woodenedgestudios.com">Wooden Edge Studios.</a></p>
+                    <span class="name">Flow Designer</span> and <span class="name">Integration Hub</span>
+                    Micro-Certifications.
+                    <br>I am also equipped with the <span class="itil">ITIL v4</span> Certification. <br>Right Now, I am
+                    focused on building custom
+                    ServiceNow <br>applications that support the business functionalities of my <br>ecommerce
+                    woodworking shop –
+                    <a href="https://woodenedgestudios.com" target="_blank"><span id="woodenedge">Wooden Edge
+                            Studios</span>.</a>
+                </p>
                 </p>
                 <div class="btn-container">
                     <button class="btn btn-color-2" onclick="promptUser()">Download Resumé
@@ -79,8 +84,8 @@
                 </div>
 
                 <div class="social-container">
-                    <a href="https://www.linkedin.com/in/tomiwa-a-42ba7a120/"><i class="ri-linkedin-box-fill"></i></a>
-                    <a href="https://github.com/tomiwa135"><i class="ri-github-fill"></i></a>
+                    <a href="https://www.linkedin.com/in/tomiwa-a-42ba7a120/" target="_blank"><i class="ri-linkedin-box-fill"></i></a>
+                    <a href="https://github.com/tomiwa135" target="_blank"><i class="ri-github-fill"></i></a>
                 </div>
 
             </div>
@@ -170,6 +175,14 @@
                         <h4>JSON</h4>
                     </div>
                 </div>
+                <div class="skill-box">
+                    <div class="skill-title">
+                        <div class="img">
+                            <img src="assets\images\ajax.png" alt="AJAX" class="skill-icon">
+                        </div>
+                        <h4>AJAX</h4>
+                    </div>
+                </div>
             </div>
             <img src="assets\images\downarrow.png" alt="Arrow-icon" class="icon arrow"
                 onclick="location.href='./#projects'">
@@ -187,7 +200,7 @@
                         </div>
                         <div class="btn-container">
                             <button class="btn btn-color-2 project-btn"
-                                onclick="location.href='https://woodenedgestudios.com'">My Website
+                                onclick="openLink('https://woodenedgestudios.com')">My E-Commerce Website
                             </button>
                         </div>
 
@@ -199,11 +212,11 @@
                         </div>
                         <div class="btn-container">
                             <button class="btn btn-color-2 project-btn"
-                                onclick="location.href='https://github.com/tomiwa135/QRCodeGenerator'">
+                                onclick="openLink('https://github.com/tomiwa135/QRCodeGenerator')">
                                 Github
                             </button>
                             <button class="btn btn-color-2 project-btn"
-                                onclick="location.href='https://github.com/tomiwa135/QRCodeGenerator'">
+                                onclick="openLink('https://tomiwa135.github.io/QRCodeGenerator/')">
                                 Live Demo
                             </button>
                         </div>
@@ -216,11 +229,11 @@
                         </div>
                         <div class="btn-container">
                             <button class="btn btn-color-2 project-btn"
-                                onclick="location.href='https://github.com/tomiwa135/QRCodeGenerator'">
+                                onclick="openLink('https://github.com/tomiwa135/QRCodeGenerator')">
                                 Github
                             </button>
                             <button class="btn btn-color-2 project-btn"
-                                onclick="location.href='https://github.com/tomiwa135/QRCodeGenerator'">
+                                onclick="openLink('https://tomiwa135.github.io/Form-Validation/')">
                                 Live Demo
                             </button>
                         </div>
@@ -233,11 +246,11 @@
                         </div>
                         <div class="btn-container">
                             <button class="btn btn-color-2 project-btn"
-                                onclick="location.href='https://github.com/tomiwa135/QRCodeGenerator'">
+                                onclick="openLink('https://github.com/tomiwa135/QRCodeGenerator')">
                                 Github
                             </button>
                             <button class="btn btn-color-2 project-btn"
-                                onclick="location.href='https://github.com/tomiwa135/QRCodeGenerator'">
+                                onclick="openLink('https://tomiwa135.github.io/Weather-App/')">
                                 Live Demo
                             </button>
                         </div>
@@ -271,18 +284,25 @@
                         </div>
                     </div>
                     <div class="section-containers-text">
-                        <p>As a life-long learner and dedicated professional, I am passionate about coming up with 
-                            innovative solutions that aligns with business objectives. My career in IT has made me 
-                            an effective problem solver with the ability to translate and accurately prioritize business 
-                            needs into solutions. As the Founder and ServiceNow Developer/Admin of Wooden Edge Studios, 
-                            I am responsible for implementing and managing custom applications and modules using ITSM and 
-                            ITIL best practices. <br>
+                        <p class="line-gap">As a life-long learner and dedicated professional, I am passionate about
+                            coming up with
+                            innovative solutions that aligns with business objectives. My career in IT has made me
+                            an effective problem solver with the ability to translate and accurately prioritize business
+                            needs into solutions. As the Founder and ServiceNow Developer/Admin of Wooden Edge Studios,
+                            I am responsible for implementing and managing custom applications and modules using ITSM
+                            and
+                            ITIL best practices. <br></p>
 
-                            I began my IT career at HBM Engineering LLC after earning a master's in Engineering at the 
-                            University of California, Berkeley. Prior to combining all my academic and professional skills 
-                            to launch Wooden Edge Studios, I was in a hybrid Software Engineering role at JP Morgan Chase 
-                            — Corporate & Investment Banking. As a vital part of a dynamic team, our mission was to streamline 
-                            operations by automating manual processes and enhancing platform solutions for the Application 
+                        <p class="line-gap">I began my IT career at HBM Engineering LLC after earning a master's in
+                            Engineering at the
+                            University of California, Berkeley. Prior to combining all my academic and professional
+                            skills
+                            to launch Wooden Edge Studios, I was in a hybrid Software Engineering role at JP Morgan
+                            Chase
+                            — Corporate & Investment Banking. As a vital part of a dynamic team, our mission was to
+                            streamline
+                            operations by automating manual processes and enhancing platform solutions for the
+                            Application
                             Development Team.
                         </p>
                     </div>
@@ -364,7 +384,7 @@
                         </div>
                         <h5 class="cert-title">ServiceNow CIS <br>Discovery</h5>
                     </div>
-                </div> 
+                </div>
             </div>
             <img src="assets\images\downarrow.png" alt="Arrow-icon" class="icon arrow"
                 onclick="location.href='./#contact'">
@@ -374,12 +394,13 @@
             <div class="contact-container">
                 <div class="contact-left">
                     <p><a href="mailto:tomiwa.akinrotimi@gmail.com">
-                    <i class="ri-mail-send-line"></i> tomiwa.akinrotimi@gmail.com</a></p>
+                            <i class="ri-mail-send-line"></i> tomiwa.akinrotimi@gmail.com</a></p>
                     <p><a href="tel: +17738083299">
-                    <i class="fa fa-mobile" aria-hidden="true"></i>+1(773) 808-3299</a></p>
+                            <i class="fa fa-mobile" aria-hidden="true"></i>+1(773) 808-3299</a></p>
                     <div class="contact-social-container">
-                        <a href="https://www.linkedin.com/in/tomiwa-a-42ba7a120/"><i class="ri-linkedin-box-fill"></i></a>
-                        <a href="https://github.com/tomiwa135"><i class="ri-github-fill"></i></a>
+                        <a href="https://www.linkedin.com/in/tomiwa-a-42ba7a120/" target="_blank"><i
+                                class="ri-linkedin-box-fill"></i></a>
+                        <a href="https://github.com/tomiwa135" target="_blank"><i class="ri-github-fill"></i></a>
                     </div>
                 </div>
 

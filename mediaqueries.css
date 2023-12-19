@@ -22,7 +22,7 @@
         display: flex;
     }
 
-    #certifications{
+    #certifications {
         margin-top: 0;
     }
 
@@ -74,7 +74,7 @@
         flex-basis: 100%;
     }
 
-    .section-container-pic-1{
+    .section-container-pic-1 {
         width: 275px;
         height: 275px;
         margin: 0 auto 2rem;
@@ -126,7 +126,7 @@
         font-size: var(--normal-font-size);
     }
 
-    .experience-education-container h2{
+    .experience-education-container h2 {
         font-size: var(--h3-font-size);
     }
 
@@ -137,8 +137,6 @@
     .logo {
         font-size: var(--h2-font-size);
     }
-
-
 
     .title {
         font-size: var(--h2-font-size);
@@ -161,18 +159,19 @@
     .section-container-pic-1 {
         width: 200px;
         height: 200px;
-        margin: auto 0;
+        margin-left: 25%;
     }
 
     .about-containers {
         margin: 0 auto 2rem;
     }
 
-    #certifications{
+    #certifications {
         margin-top: 0;
     }
 
-    .contact-left, .contact-right {
+    .contact-left,
+    .contact-right {
         flex-basis: 100%;
     }
 
