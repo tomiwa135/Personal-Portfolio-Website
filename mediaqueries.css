@@ -176,10 +176,9 @@
     }
 
     .section__text p {
-        font-weight: var(--font-regular);
-        font-size: var(--smaller-font-size);
-        text-align: center;
+        font-weight: var(--font-medium);
         margin-bottom: 5px;
-        justify-content: center;
+        font-size: var(--small-font-size);
+        text-align: center;
     }
 }
