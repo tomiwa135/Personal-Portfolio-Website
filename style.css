@@ -1,7 +1,7 @@
 /*Variables CSS*/
 :root {
     /*Colors*/
-    --color-primary: #191d2b;
+    --color-primary: #2b3046;
     --color-secondary: #27AE60;
     --color-white: #fff;
     --color-black: #000;
@@ -194,8 +194,8 @@ a:hover {
 /*Section*/
 section {
     padding-top: 4vh;
-    height: 96vh;
-    margin: 0 10rem;
+    height: 90vh;
+    margin: 10%;
     box-sizing: border-box;
     min-height: fit-content;
 }
@@ -209,7 +209,7 @@ section {
 #profile {
     display: flex;
     justify-content: center;
-    gap: 5rem;
+    gap: 5px;
     height: 80vh;
     position: relative;
 }
@@ -225,6 +225,7 @@ section {
 .section__text {
     align-self: center;
     justify-content: center;
+    max-width: 600px;
 }
 
 .section__text p {
@@ -232,7 +233,7 @@ section {
     text-align: center;
     margin-bottom: 5px;
     font-size: var(--normal-font-size);
-    justify-content: center;
+    margin: 0 auto;
 }
 
 .section__text h1 {
@@ -408,6 +409,7 @@ span.itil {
     padding: 32px;
     flex-wrap: wrap;
     flex-direction: row;
+    margin-bottom: auto;
 }
 
 .skill-box {
@@ -548,6 +550,7 @@ span.itil {
 #contact {
     position: relative;
     padding: 80px 0;
+    margin-top: auto;
 }
 
 .contact-container {
@@ -644,4 +647,8 @@ footer {
     margin-top: 20px;
     font-weight: var(--font-regular);
     color: var(--color-black);
+}
+
+.copyright p {
+    font-size: var(--smallest-font-size);
 }

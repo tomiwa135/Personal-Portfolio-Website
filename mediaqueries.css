@@ -10,6 +10,8 @@
     .projects-containers,
     .contact-container {
         flex-wrap: wrap;
+        margin-top: auto;
+        margin-bottom: auto;
     }
 }
 
@@ -20,6 +22,13 @@
 
     #hamburger-nav {
         display: flex;
+    }
+
+    #profile {
+        display: flex;
+        flex-wrap: wrap;
+        justify-self: center;
+        align-items: center;
     }
 
     #certifications {
@@ -37,7 +46,6 @@
         margin: 5px;
     }
 
-    #profile,
     .section-conainer,
     .about-containers {
         display: block;
@@ -81,7 +89,7 @@
     }
 
     .section-container-details-2 {
-        margin-top: 120px;
+        margin-top: 50px;
     }
 
 }
@@ -123,11 +131,15 @@
     }
 
     .experience-education-container p {
-        font-size: var(--normal-font-size);
+        font-size: var(--small-font-size);
     }
 
     .experience-education-container h2 {
         font-size: var(--h3-font-size);
+    }
+
+    .section-container-details-2 {
+        margin-top: 50px;
     }
 
     .skill-title h4 {
@@ -177,8 +189,10 @@
 
     .section__text p {
         font-weight: var(--font-medium);
+        text-align: center;
         margin-bottom: 5px;
         font-size: var(--small-font-size);
-        text-align: center;
+        max-width: 100%;
+        margin: 0 auto;
     }
 }
