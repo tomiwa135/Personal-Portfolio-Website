@@ -10,6 +10,8 @@
     .projects-containers,
     .contact-container {
         flex-wrap: wrap;
+        margin-top: auto;
+        margin-bottom: auto;
     }
 }
 
@@ -20,6 +22,13 @@
 
     #hamburger-nav {
         display: flex;
+    }
+
+    #profile {
+        display: flex;
+        flex-wrap: wrap;
+        justify-self: center;
+        align-items: center;
     }
 
     #certifications {
@@ -37,7 +46,6 @@
         margin: 5px;
     }
 
-    #profile,
     .section-conainer,
     .about-containers {
         display: block;
