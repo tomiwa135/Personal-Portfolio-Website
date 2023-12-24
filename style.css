@@ -1,7 +1,7 @@
 /*Variables CSS*/
 :root {
     /*Colors*/
-    --color-primary: #2b3046;
+    --color-primary: linear-gradient(#191d2b, #2e344eee);
     --color-secondary: #27AE60;
     --color-white: #fff;
     --color-black: #000;
@@ -193,9 +193,8 @@ a:hover {
 
 /*Section*/
 section {
-    padding-top: 4vh;
     height: 90vh;
-    margin: 10%;
+    margin: 7%;
     box-sizing: border-box;
     min-height: fit-content;
 }
@@ -383,8 +382,8 @@ span.itil {
 
 .arrow {
     position: absolute;
-    right: -5rem;
-    bottom: 2.5rem;
+    right: -2rem;
+    bottom: 2rem;
 }
 
 .experience-education-container {
