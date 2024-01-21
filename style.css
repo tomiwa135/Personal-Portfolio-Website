@@ -340,6 +340,7 @@ span.itil {
 #about {
     position: relative;
     padding: 80px 0;
+    margin: auto 50px;
 }
 
 .about-containers {
@@ -391,7 +392,7 @@ span.itil {
     flex: 1;
     border-radius: 2rem;
     text-align: center;
-    background: var(--color-grey-2);
+    background: rgb(111, 111, 111);
 }
 
 /*-----------SKILLS--------------*/
