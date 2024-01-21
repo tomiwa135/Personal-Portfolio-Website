@@ -6,21 +6,11 @@ function toggleMenu() {
 }
 
 function downloadResume() {
-    window.open('assets/tomiwa-Akinrotimi-Resume.pdf');
+    window.open('assets/Tomiwa_Akinrotimi_Resume.pdf');
 }
 
 function openLink(url) {
     window.open(url, '_blank');
-}
-
-function promptUser() {
-    var operations = prompt("Please enter password:");
-
-    if (operations == 1111) {
-        downloadResume();
-    } else {
-        alert("Wrong Password!");
-    }
 }
 
 const form = document.querySelector('.contact-right-form');

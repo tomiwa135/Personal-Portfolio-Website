@@ -340,6 +340,7 @@ span.itil {
 #about {
     position: relative;
     padding: 80px 0;
+    margin: auto 50px;
 }
 
 .about-containers {
@@ -391,7 +392,7 @@ span.itil {
     flex: 1;
     border-radius: 2rem;
     text-align: center;
-    background: var(--color-grey-2);
+    background: rgb(111, 111, 111);
 }
 
 /*-----------SKILLS--------------*/
@@ -535,6 +536,8 @@ span.itil {
 
 #certifications {
     position: relative;
+    padding: 80px 0;
+    margin-top: auto;
 }
 
 .cert-title {
@@ -549,7 +552,6 @@ span.itil {
 #contact {
     position: relative;
     padding: 80px 0;
-    margin-top: auto;
 }
 
 .contact-container {
