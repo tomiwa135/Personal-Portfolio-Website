@@ -535,6 +535,8 @@ span.itil {
 
 #certifications {
     position: relative;
+    padding: 80px 0;
+    margin-top: auto;
 }
 
 .cert-title {
@@ -549,7 +551,6 @@ span.itil {
 #contact {
     position: relative;
     padding: 80px 0;
-    margin-top: auto;
 }
 
 .contact-container {
