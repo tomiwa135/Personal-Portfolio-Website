@@ -340,13 +340,13 @@ span.itil {
 #about {
     position: relative;
     padding: 80px 0;
-    margin: auto 50px;
 }
 
 .about-containers {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin: auto 50px;
 }
 
 .section-container-pic-1 {
