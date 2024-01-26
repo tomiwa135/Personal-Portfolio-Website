@@ -365,7 +365,7 @@ span.itil {
 }
 
 .section-containers-text {
-    font-size: var(--small-font-size);
+    font-size: var(--normal-font-size);
     font-weight: var(--font-light);
 }
 
