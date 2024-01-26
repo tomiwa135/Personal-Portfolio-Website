@@ -512,13 +512,43 @@
 
                 <div class="contact-right">
                     <form class="contact-right-form">
-                        <input type="text" name="u_name" placeholder="John Smith" required>
-                        <input type="text" name="u_email" placeholder="johnsmith@gmail.com" required>
-                        <textarea rows="6" cols="50" name="u_message" placeholder="Send me a message"
-                            required></textarea><br>
+
+                        <i class="ri-contacts-book-fill"></i>
+
+                        <h4><span class="contact-header">Ready to elevate your team's/company's capabilities? 
+                            Let's connect and I will get your message in a custom table in ServiceNow leveraging the Rest API Explorer capability</span></h4>
+
+                        <div class="input-group">
+                            <label>Full Name:</label><br>
+                            <input type="text" name="u_name" id="contact-name" placeholder="John Smith" required onkeyup="validateName()"><br>
+                            <span id="name-error"></span>
+                        </div>
+
+                        <div class="input-group">
+                            <label>Phone No.:</label><br>
+                            <input type="tel" name="u_phone" id="contact-phone" placeholder="123 456 7890" required onkeyup="validatePhone()"><br>
+                            <span id="phone-error"></span>
+                          </div>
+
+                        <div class="input-group">
+                            <label>Email:</label><br>
+                            <input type="email" name="u_email" id="contact-email" placeholder="johnsmith@gmail.com" required onkeyup="validateEmail()"><br>
+                            <span id="email-error"></span>
+                        </div>
+
+                        <div class="input-group">
+                            <label>Your Message:</label><br>
+                            <textarea rows="6" cols="50" name="u_message" id="contact-message" placeholder="Send me a message" required onkeyup="validateMessage()"></textarea><br>
+                            <span id="message-error"></span>
+                        </div>
+
+                        <br>
                         <button type="submit" class="btn btn-color-2">Submit <i class="ri-send-plane-fill"></i></button>
+                        <span id="submit-error"></span>
                     </form>
+
                     <span id="msg"></span>
+                
                 </div>
             </div>
             <img src="assets\images\downarrow.png" alt="Arrow-icon" class="icon arrow"

@@ -599,6 +599,12 @@ span.itil {
 
 .contact-right-form {
     width: 100%;
+    max-width: 85%;
+    padding: 50px 30px 20px;
+    background: rgb(98, 151, 74);
+    border-radius: 4px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    position: relative;
 }
 
 form input,
@@ -633,6 +639,51 @@ form .btn {
     font-size: var(--small-font-size);
 }
 
+.ri-contacts-book-fill{
+    position: relative;
+    font-size: 26px;
+}
+
+.contact-header {
+    display: flex;
+    color: rgb(255, 255, 69);
+    font-weight: 400;
+}
+
+.input-group{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    position: relative;
+}
+
+.input-group label{
+    flex-basis: 28%;
+}
+
+.input-group input, 
+.input-group textarea{
+    flex-basis: 88%;
+}
+
+
+.input-group span{
+    position: absolute;
+    bottom: 12px;
+    right: 17px;
+    font-size: inherit;
+    color: red;
+}
+
+#submit-error {
+    color: red;
+}
+
+.input-group span i{
+    color: rgb(79, 119, 18);
+    font-size: inherit;
+}
 /*-----------FOOTER--------------*/
 
 footer {
