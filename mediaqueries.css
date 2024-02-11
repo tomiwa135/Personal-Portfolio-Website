@@ -15,7 +15,8 @@
     }
 
     #certifications,
-    #about {
+    #about,
+    #contact {
         position: relative;
         padding: 80px 0;
     }
@@ -94,6 +95,102 @@
         margin-top: 50px;
     }
 
+    #certifications,
+    #about,
+    #contact {
+        position: relative;
+        padding: 80px 0;
+    }
+
+    #contact {
+        margin-top: 30px;
+    }
+
+}
+
+@media only screen and (min-height: 900px) and (min-device-width: 1200px) and (max-device-width: 1440px) and (-webkit-min-device-pixel-ratio: 2) {
+    #desktop-nav {
+        display: none;
+    }
+
+    #hamburger-nav {
+        display: flex;
+    }
+
+    #profile {
+        display: flex;
+        flex-wrap: wrap;
+        justify-self: center;
+        align-items: center;
+    }
+
+    .skills-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+        grid-gap: 15px;
+    }
+
+    .skill-box {
+        flex: 1 0 100px;
+        margin: 5px;
+    }
+
+    .section-conainer,
+    .about-containers {
+        display: block;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    section,
+    .section-conainer {
+        height: fit-content;
+    }
+
+    section {
+        margin: 0 5%;
+    }
+
+    .section__pic-container {
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+
+    .skills-container,
+    .projects-containers,
+    .section-container-brief,
+    .about-containers,
+    .contact-container {
+        margin-top: 0;
+    }
+
+    .about-containers {
+        flex-basis: 100%;
+    }
+
+    .section-container-pic-1 {
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+
+    .section-container-details-2 {
+        margin-top: 50px;
+    }
+
+    #certifications,
+    #about,
+    #contact {
+        position: relative;
+        padding: 80px 0;
+    }
+
+    #contact {
+        margin-top: 30px;
+    }
 }
 
 @media screen and (max-width: 600px) {
