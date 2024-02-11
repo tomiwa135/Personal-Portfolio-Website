@@ -340,6 +340,7 @@ span.itil {
 #about {
     position: relative;
     padding: 80px 0;
+    margin-bottom: 20px;
 }
 
 .about-containers {
