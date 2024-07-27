@@ -323,12 +323,13 @@
                 onclick="location.href='./#certifications'">
         </section>
         <section id="certifications">
+            <p class="subtitle">Click to Open</p>
             <h1 class="title">My Certifications <i class="ri-award-fill"></i></h1>
             <div class="skills-container">
                 <div class="skill-box">
                     <div class="skill-title">
                         <div class="img">
-                            <img src="assets\images\itil4.png" alt="ITIL 4" class="skill-icon">
+                            <img src="assets\images\itil4.png" alt="ITIL 4" class="skill-icon" onclick="downloadITIL()">
                         </div>
                         <h5 class="cert-title">ITIL v4</h5>
                     </div>
@@ -336,7 +337,7 @@
                 <div class="skill-box">
                     <div class="skill-title">
                         <div class="img">
-                            <img src="assets\images\servicenowdev.png" alt="ServiceNow Developer" class="skill-icon">
+                            <img src="assets\images\servicenowdev.png" alt="ServiceNow Developer" class="skill-icon" onclick="downloadSNDev()">
                         </div>
                         <h5 class="cert-title">ServiceNow Developer</5>
                     </div>
@@ -344,8 +345,7 @@
                 <div class="skill-box">
                     <div class="skill-title">
                         <div class="img">
-                            <img src="assets\images\servicenowadmin.png" alt="ServiceNow Administrator"
-                                class="skill-icon">
+                            <img src="assets\images\servicenowadmin.png" alt="ServiceNow Administrator" class="skill-icon" onclick="downloadSNAdmin()">
                         </div>
                         <h5 class="cert-title">ServiceNow Administrator</h5>
                     </div>
@@ -353,7 +353,7 @@
                 <div class="skill-box">
                     <div class="skill-title">
                         <div class="img">
-                            <img src="assets\images\discovery.png" alt="CIS-Discovery" class="skill-icon">
+                            <img src="assets\images\discovery.png" alt="CIS-Discovery" class="skill-icon" onclick="downloadSNDiscovery()">
                         </div>
                         <h5 class="cert-title">ServiceNow CIS <br>Discovery</h5>
                     </div>
@@ -361,15 +361,7 @@
                 <div class="skill-box">
                     <div class="skill-title">
                         <div class="img">
-                            <img src="assets\images\servicenow cis - itsm.png" alt="ServiceNow CIS - ITSM" class="skill-icon">
-                        </div>
-                        <h5 class="cert-title">ServiceNow CIS <br>ITSM</h5>
-                    </div>
-                </div>
-                <div class="skill-box">
-                    <div class="skill-title">
-                        <div class="img">
-                            <img src="assets\images\configurethecmdb.png" alt="Configure the CMDB" class="skill-icon">
+                            <img src="assets\images\configurethecmdb.png" alt="Configure the CMDB" class="skill-icon" onclick="downloadMicroCMDB()">
                         </div>
                         <h5 class="cert-title">ServiceNow Micro-Cert: <br>Configure the CMDB</h5>
                     </div>
@@ -377,7 +369,7 @@
                 <div class="skill-box">
                     <div class="skill-title">
                         <div class="img">
-                            <img src="assets\images\flowdesigner.png" alt="Flow Designer" class="skill-icon">
+                            <img src="assets\images\flowdesigner.png" alt="Flow Designer" class="skill-icon" onclick="downloadFlowDesigner()">
                         </div>
                         <h5 class="cert-title">ServiceNow Micro-Cert: <br>Flow Designer</h5>
                     </div>
@@ -385,7 +377,7 @@
                 <div class="skill-box">
                     <div class="skill-title">
                         <div class="img">
-                            <img src="assets\images\integrationhub.png" alt="Integration Hub" class="skill-icon">
+                            <img src="assets\images\integrationhub.png" alt="Integration Hub" class="skill-icon" onclick="downloadIntHub()">
                         </div>
                         <h5 class="cert-title">ServiceNow Micro-Cert: <br>Integration Hub</h5>
                     </div>
@@ -393,7 +385,7 @@
                 <div class="skill-box">
                     <div class="skill-title">
                         <div class="img">
-                            <img src="assets\images\aws.png" alt="AWS" class="skill-icon">
+                            <img src="assets\images\aws.png" alt="AWS" class="skill-icon" onclick="downloadAWS()">
                         </div>
                         <h5 class="cert-title">AWS Solutions Architect: <br> Associate</h5>
                     </div>
@@ -452,38 +444,35 @@
                         <div class="experience-education-container">
                             <img src="assets\images\education.png" alt="Education" class="icon">
                             <h2>Education</h2>
-                            <p>M.Sc. in Engineering Mechanics</p>
-                            <p>B. Sc. in Structural Engineering</p>
+                            <p>M.Sc. in Engineering, UC Berkeley</p>
+                            <p>B. Sc. in Structural Engineering, UIUC</p>
                         </div>
                         <div class="experience-education-container">
                             <img src="assets\images\experience.png" alt="Experience" class="icon">
                             <h2>Experience</h2>
-                            <p>5+ years <br> ServiceNow Development/Adminstration</p>
+                            <p>3+ years <br> ServiceNow Development/Adminstration</p>
                         </div>
                     </div>
                     <div class="section-containers-text">
                         <p class="line-gap">My career in Engineering has made me an effective problem solver 
                             with the ability to translate and accurately prioritize business requirements into 
-                            solutions. As a ServiceNow Developer for Wooden Edge Studios, I am responsible for 
-                            implementing and managing custom applications and modules using ITSM and ITIL best 
+                            solutions. As a ServiceNow Developer, I am responsible for 
+                            implementing and managing custom applications, modules, and spearheading projects using ITSM and ITIL best 
                             practices.</p>
 
-                        <p class="line-gap">I began my IT career at HBM Engineering after earning a Master's of 
-                            Science in Engineering Mechanics at the University of California, Berkeley. At HBM 
-                            Engineering, I translated stakeholder requirements into fully functional features by 
-                            working with the implementation team. My trajectory led me to a hybrid Software Engineering 
+                        <p class="line-gap">My trajectory led me to a hybrid Software Engineering 
                             role at JP Morgan Chase. There, as an integral member of a dynamic team, I spearheaded 
                             initiatives to streamline operations by automating manual processes and enhancing platform 
                             solutions for the Application Development Team. This experience enriched my programming skills 
                             and further solidified my problem-solving skills. In my current role as a ServiceNow Developer 
                             at Wooden Edge Studios, I am entrusted with the responsibility of implementing and managing 
-                            custom applications using the Glide API, the ITSM, ITOM, and ITAM module. Leveraging my expertise, 
-                            I have successfully developed and implemented custom ServiceNow applications and modules for the 
-                            e-commerce woodworking business, employing tools such as Client Scripts, Catalog Client Scripts, 
-                            UI Policies, and Catalog UI Policies for various Catalog Items. Aside from the fact, one notable achievement at Wooden 
+                            custom applications using the Glide API, ITSM and ITOM modules. Leveraging my expertise, 
+                            I have successfully developed and implemented custom ServiceNow applications and modules for my 
+                            e-commerce woodworking business, employing tools such as Client Scripts, Catalog Client Scripts 
+                            and Catalog UI Policies for various Catalog Items. Aside from the fact, one notable achievement at Wooden 
                             Edge Studios that I take immense pride in is the successful installation of a MID Server on my AWS 
                             account. This strategic move allowed me to discover all the cloud resources which further allowed me to populate 
-                            the CMDB and view the relationships between application to application and application to host relationships, 
+                            the CMDB and view the relationships between CIs. application to application and application to host relationships, 
                             showcasing my ability to optimize infrastructure.</p>
 
                         <p class="line-gap">
@@ -524,25 +513,21 @@
                             <input type="text" name="u_name" id="contact-name" placeholder="John Smith" required onkeyup="validateName()"><br>
                             <span id="name-error"></span>
                         </div>
-
                         <div class="input-group">
                             <label>Phone No.:</label><br>
                             <input type="tel" name="u_phone" id="contact-phone" placeholder="123 456 7890" required onkeyup="validatePhone()"><br>
                             <span id="phone-error"></span>
                           </div>
-
                         <div class="input-group">
                             <label>Email:</label><br>
                             <input type="email" name="u_email" id="contact-email" placeholder="johnsmith@gmail.com" required onkeyup="validateEmail()"><br>
                             <span id="email-error"></span>
                         </div>
-
                         <div class="input-group">
                             <label>Your Message:</label><br>
                             <textarea rows="6" cols="50" name="u_message" id="contact-message" placeholder="Send me a message" required onkeyup="validateMessage()"></textarea><br>
                             <span id="message-error"></span>
                         </div>
-
                         <br>
                         <button type="submit" class="btn btn-color-2">Submit <i class="ri-send-plane-fill"></i></button>
                         <span id="submit-error"></span>
@@ -557,18 +542,6 @@
         </section>
     </main>
     <footer id="foot">
-        <nav>
-            <div class="nav-links-container">
-                <ul class="nav-links">
-                    <li><a href="#profile"><i class="ri-home-3-line"></i> Home</a></li>
-                    <li><a href="#skills"><i class="ri-spy-fill"></i> Skills</a></li>
-                    <li><a href="#projects"><i class="ri-briefcase-5-fill"></i> Projects</a></li>
-                    <li><a href="#about"><i class="ri-user-6-line"></i> About Me</a></li>
-                    <li><a href="#certifications"><i class="ri-medal-line"></i> Certifications</a></li>
-                    <li><a href="#contact"><i class="ri-customer-service-2-fill"></i> Contact Me</a></li>
-                </ul>
-            </div>
-        </nav>
         <div class="copyright">
             <p> Copyright © 2024 Tomiwa. All Rights Reserved.</p>
         </div>
