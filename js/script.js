@@ -9,6 +9,38 @@ function downloadResume() {
     window.open('assets/Tomiwa_Akinrotimi_Resume.pdf');
 }
 
+function downloadITIL() {
+    window.open('assets/ITIL.pdf');
+}
+
+function downloadSNDev() {
+    window.open('assets/ServiceNowCAD.pdf');
+}
+
+function downloadSNAdmin() {
+    window.open('assets/ServiceNowCSA.pdf');
+}
+
+function downloadSNDiscovery() {
+    window.open('assets/ServiceNow CIS - Discovery.pdf');
+}
+
+function downloadMicroCMDB() {
+    window.open('assets/Micro-Certification - Configure the CMDB.pdf');
+}
+
+function downloadFlowDesigner() {
+    window.open('assets/Micro-Certification - Flow Designer.pdf');
+}
+
+function downloadIntHub() {
+    window.open('assets/Micro-Certification - Integration Hub.pdf');
+}
+
+function downloadAWS() {
+    window.open('assets/AWS Certified Solutions Architect.pdf');
+}
+
 function openLink(url) {
     window.open(url, '_blank');
 }

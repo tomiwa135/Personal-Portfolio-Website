@@ -599,9 +599,10 @@ span.itil {
 }
 
 .contact-right-form {
-    width: 100%;
-    max-width: 85%;
-    padding: 50px 30px 20px;
+    width: 80%;
+    max-width: 83%;
+    height: fit-content;
+    padding: 30px 30px 20px;
     background: rgb(98, 151, 74);
     border-radius: 4px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
@@ -688,7 +689,7 @@ form .btn {
 /*-----------FOOTER--------------*/
 
 footer {
-    height: 26vh;
+    height: vh;
     margin: 0 16px;
 }
 
