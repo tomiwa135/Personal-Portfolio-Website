@@ -6,7 +6,7 @@ function toggleMenu() {
 }
 
 function downloadResume() {
-    window.open('assets/Tomiwa_Akinrotimi_Resume.pdf');
+    window.open('assets/Tomiwa_Akinrotimi_Resume_01.pdf');
 }
 
 function downloadITIL() {
