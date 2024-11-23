@@ -25,12 +25,20 @@ function downloadSNDiscovery() {
     window.open('assets/ServiceNow CIS - Discovery.pdf');
 }
 
+function downloadSN_HAM() {
+    window.open('assets/ServiceNowCIS - HAM.pdf');
+}
+
 function downloadMicroCMDB() {
     window.open('assets/Micro-Certification - Configure the CMDB.pdf');
 }
 
 function downloadFlowDesigner() {
     window.open('assets/Micro-Certification - Flow Designer.pdf');
+}
+
+function downloadVirtualAgent() {
+    window.open('assets/ServiceNow Micro-Certification - Virtual Agent.pdf');
 }
 
 function downloadIntHub() {
