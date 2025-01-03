@@ -29,6 +29,10 @@ function downloadSN_HAM() {
     window.open('assets/ServiceNowCIS - HAM.pdf');
 }
 
+function downloadSN_HRSD() {
+    window.open('assets/ServiceNowCIS - HRSD.pdf');
+}
+
 function downloadMicroCMDB() {
     window.open('assets/Micro-Certification - Configure the CMDB.pdf');
 }

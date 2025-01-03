@@ -693,7 +693,7 @@ footer {
     margin: 0 16px;
 }
 
-.copyright {
+.sitefooter {
     width: 100%;
     text-align: center;
     padding: 25px 0;
@@ -703,6 +703,6 @@ footer {
     color: var(--color-black);
 }
 
-.copyright p {
+.sitefooter p {
     font-size: var(--smallest-font-size);
 }
