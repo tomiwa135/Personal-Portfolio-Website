@@ -6,7 +6,7 @@ function toggleMenu() {
 }
 
 function downloadResume() {
-    window.open('assets/Tomiwa_Akinrotimi_Resume_01.pdf');
+    window.open('assets/My Resume.pdf');
 }
 
 function downloadITIL() {
@@ -27,6 +27,10 @@ function downloadSNDiscovery() {
 
 function downloadSN_HAM() {
     window.open('assets/ServiceNowCIS - HAM.pdf');
+}
+
+function downloadSN_HRSD() {
+    window.open('assets/ServiceNowCIS - HRSD.pdf');
 }
 
 function downloadMicroCMDB() {
