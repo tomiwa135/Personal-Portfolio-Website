@@ -6,7 +6,7 @@ function toggleMenu() {
 }
 
 function downloadResume() {
-    window.open('assets/My Resume.pdf');
+    window.open('assets/Tomi Akinrotimi Resume.pdf');
 }
 
 function downloadITIL() {
