@@ -6,7 +6,7 @@ function toggleMenu() {
 }
 
 function downloadResume() {
-    window.open('assets/Tomi Akinrotimi Resume.pdf');
+    window.open('assets/Tomiwa Akinrotimi Resume.docx');
 }
 
 function downloadITIL() {
@@ -19,6 +19,10 @@ function downloadSNDev() {
 
 function downloadSNAdmin() {
     window.open('assets/ServiceNowCSA.pdf');
+}
+
+function downloadSNITSM() {
+    window.open('assets/ServiceNow CIS - ITSM.pdf');
 }
 
 function downloadSNDiscovery() {
@@ -47,10 +51,6 @@ function downloadVirtualAgent() {
 
 function downloadIntHub() {
     window.open('assets/Micro-Certification - Integration Hub.pdf');
-}
-
-function downloadAWS() {
-    window.open('assets/AWS Certified Solutions Architect.pdf');
 }
 
 function openLink(url) {
